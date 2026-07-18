@@ -1,0 +1,114 @@
+/* ==========================================
+   GLOBAL RESET
+========================================== */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Segoe UI",Tahoma,Geneva,Verdana,sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:#f5f7fb;
+color:#1e293b;
+overflow-x:hidden;
+}
+
+a{
+text-decoration:none;
+color:inherit;
+}
+
+img{
+max-width:100%;
+display:block;
+}
+
+button{
+cursor:pointer;
+font-family:inherit;
+}
+
+input,
+textarea,
+select{
+font-family:inherit;
+font-size:15px;
+}
+
+.container{
+width:92%;
+max-width:1400px;
+margin:30px auto;
+}
+
+/* ===========================
+   SCROLLBAR
+=========================== */
+
+::-webkit-scrollbar{
+width:10px;
+}
+
+::-webkit-scrollbar-track{
+background:#e2e8f0;
+}
+
+::-webkit-scrollbar-thumb{
+background:#2563eb;
+border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background:#1d4ed8;
+}
+
+/* ===========================
+   HEADINGS
+=========================== */
+
+h1{
+font-size:38px;
+font-weight:700;
+color:#0f172a;
+}
+
+h2{
+font-size:26px;
+font-weight:700;
+color:#0f172a;
+}
+
+h3{
+font-size:20px;
+font-weight:600;
+}
+
+p{
+line-height:1.6;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:768px){
+
+.container{
+width:95%;
+}
+
+h1{
+font-size:30px;
+}
+
+h2{
+font-size:22px;
+}
+
+}
